@@ -36,12 +36,10 @@ class _DiceRollerState extends State<DiceRoller> {
         TextButton(
           onPressed: rollDice,
           style: TextButton.styleFrom(
-            padding: const EdgeInsets.only(
-             top: 20, bottom: 20, left: 20, right: 20
-            ),
-            foregroundColor: Colors.white
-          ),
-          child:const  StyledText('Roll'),
+              padding: const EdgeInsets.only(
+                  top: 20, bottom: 20, left: 20, right: 20),
+              foregroundColor: Colors.white),
+          child: const StyledText('Roll'),
         )
       ],
     );
