@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:dice_roller/styled_text.dart';
 
 final randomizer = Random();
 
@@ -38,12 +39,9 @@ class _DiceRollerState extends State<DiceRoller> {
             padding: const EdgeInsets.only(
              top: 20, bottom: 20, left: 20, right: 20
             ),
-            foregroundColor: Colors.white,
-            textStyle: const TextStyle(
-              fontSize: 28,
-            ),
+            foregroundColor: Colors.white
           ),
-          child: const Text('Roll'),
+          child:const  StyledText('Roll'),
         )
       ],
     );
